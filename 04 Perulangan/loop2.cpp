@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    for (int i; i < 10; i++) {
-        for (int j; i < i; j++) {
+    for (int i=0; i < 10; i++) {
+        for (int j=0; j < i; j++) {
         cout << "* ";
     }
     cout << endl;
